@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+      "outDir": "./built",
+      "allowJs": true,
+      "target": "es5",
+      "jsx": "react",
+      "lib": [
+        "es5",
+        "es6",
+        "es7",
+        "es2017",
+        "dom"
+      ],
+  },
+  "allowSyntheticDefaultImports": true,
+  "jsx": "react",
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.js"
+  ],
+}

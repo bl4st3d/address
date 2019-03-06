@@ -1,0 +1,21 @@
+.search-suggestions {
+  width: 100%;
+  position: absolute;
+  top: 2.2rem;
+  z-index: 100;
+  padding: 0;
+  margin: 0;
+  li {
+    list-style-type: none;
+    box-shadow: $list-box-shadow;
+    border: $list-border-top;
+    padding: 5px 10px;
+    cursor: pointer;
+
+    &:hover,
+    &:active,
+    &:focus {
+      background-color: rgba( 0, 0, 0, 0.1)
+    }
+  }
+}
